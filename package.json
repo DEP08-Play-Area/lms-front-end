@@ -4,10 +4,11 @@
   "description": "LMS Front End",
   "author": "Direct Entry Program 8 <deo@ijse.lk> (https://ijse.lk)",
   "license": "MIT",
-  "source": "src/index.html",
+  "source": ["src/index.html", "src/register-students.html"],
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "watch": "tsc --watch"
   },
   "dependencies": {
     "admin-lte": "^3.2.0"
